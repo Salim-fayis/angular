@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+
+input{
+    border: none;
+    border-radius: 8px;
+    width: 60rem;
+    margin-left: auto; 
+    margin-right: auto;
+    padding: 6px;
+}
+.child{
+    display: inline-block;
+    padding: 50px;
+    margin-top: -100px;
+    margin-left: 150px;
+
+}
+
+.wrapper {
+    background-color:darkcyan;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 30px;
+  
+}
+
+.logo{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    width: 100%;
+}
+@import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
